@@ -1,0 +1,18 @@
+class ellipce
+{
+	  double Ellipse( int a ,int b)
+	  
+	{
+	  final double pi = 3.142;
+	 
+	  double area = pi*a*b;
+	  return area;
+	}
+
+
+	public static void main(String[] args) 
+	{
+		double area =  new test().Ellipse(3,7); 
+		System.out.println("The area of Ellipse is " + area );
+	}
+}
